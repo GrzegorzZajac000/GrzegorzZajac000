@@ -1,0 +1,118 @@
+.top {
+  align-items: center;
+  display: flex;
+  gap: 0 41px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.gif {
+  height: 150px;
+  margin: 0 auto;
+  max-width: 50%;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: relative;
+}
+
+.gif-desc {
+  margin: 0 auto 45px;
+  max-width: 50%;
+  text-align: center;
+}
+
+.gif-desc a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #13151B;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  margin: 0 auto 39px;
+  max-width: 677px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto 40px;
+  max-width: 560px;
+  text-align: center;
+}
+
+h3 strong {
+  text-decoration: underline;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto 44px;
+  text-align: center;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 auto 44px;
+  max-width: 525px;
+  text-align: center;
+}
+
+h5 a,
+h6 a {
+  color: #feb95a;
+}
+
+h5 a:hover,
+h6 a:hover {
+  color: #fff;
+}
+
+h6 {
+  color: #A9DFD8;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 auto 38px;
+  max-width: 578px;
+  text-align: center;
+}
+
+p.thank-you {
+  color: #FEB95A;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .top {
+    flex-direction: column;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+}
